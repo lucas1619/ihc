@@ -58,6 +58,9 @@ body{
 .justify-around{
     justify-content: space-around;
 }
+.justify-between{
+    justify-content: space-between;
+}
 .align-center{
     align-items: center;
 }
@@ -122,6 +125,10 @@ ul > li{
 }
 .img-pasos{
     width: 204px;
+}
+.padding-x-50{
+    padding-left: 50px;
+    padding-right:50px;
 }
 .detalle-pasos{
     padding-left: 50px;
