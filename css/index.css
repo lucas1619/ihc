@@ -77,7 +77,7 @@ body{
 }
 .juntos h2, .juntos span{
     margin-bottom: 30px;
-    width: 45vw;
+    width: 51vw;
 }
 .juntos button{
     width:280px;
@@ -115,6 +115,9 @@ ul > li{
     border-radius: 20px;
 }
 .busca{
+    padding: 30px 0 30px 0;
+}
+.pasos{
     padding: 30px 0 30px 0;
 }
 .img-pasos{
