@@ -1,3 +1,24 @@
+.font-24{
+    font-size: 24px;
+}
+.font-18{
+    font-size: 18px;
+}
+.font-64{
+    font-size: 64px;
+}
+.font-20{
+    font-size: 20px;
+}
+.font-24{
+    font-size: 24px;
+}
+.font-50{
+    font-size: 50px;
+}
+.busca-pide h2, .busca-pide span{
+    margin-bottom: 30px;
+}
 .flex{
     display: flex;
 }
@@ -36,14 +57,23 @@
     padding-bottom: 10px;
 }
 .juntos{
-    height: 95vh;
+    height: 92vh;
     width: 100%;
     background-image: url("../img/echica_2_mask_1.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .juntos h2, .juntos span{
-    width: 30vw;
+    margin-bottom: 30px;
+    width: 45vw;
+}
+.juntos button{
+    width:280px;
+    padding: 10px 0 10px 0;
+    border: none;
+    background-color: #1D387D;
+    color: white;
+    border-radius: 5px;
 }
 ul > li{
    margin: 0 15px 0px 15px; 
@@ -83,7 +113,8 @@ ul > li{
     padding-right:50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 30px;
+    padding-bottom: 50px;
 }
 .detalle-pasos div h3{
     margin-bottom: 10px;
@@ -94,4 +125,12 @@ ul > li{
 .input-form{
     display: flex;
     flex-direction: column;
+}
+.grid-col-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.sub-container-30vw{
+    width: 30vw;
+    margin: 0 auto;
 }
