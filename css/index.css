@@ -1,3 +1,15 @@
+button{
+    border: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.text-blue{
+    color: #1D387D; 
+}
+.bold{
+    font-weight: 700;
+}
 .font-24{
     font-size: 24px;
 }
@@ -121,6 +133,7 @@ ul > li{
 }
 .tienes-duda{
     color: white;
+    padding: 30px 0 30px 0;
 }
 .input-form{
     display: flex;
@@ -129,8 +142,23 @@ ul > li{
 .grid-col-2{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 7px;
 }
 .sub-container-30vw{
-    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
     margin: 0 auto;
+}
+.sub-container-30vw h2, .sub-container-30vw .span{
+    margin-bottom: 30px;
+}
+.butt-enviar{
+    margin-top: 20px;
+    padding: 10px 0 10px 0;
+}
+.radius-5{
+    border-radius: 5px;
 }
