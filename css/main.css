@@ -1,5 +1,8 @@
 /*Estoy haciendo uso de la tecnica mobile first*/
 /*Celular promedio*/
+ul li{
+    cursor: pointer;
+}
 .header{
     background-color: black;
     color: white;
