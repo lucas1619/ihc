@@ -1,6 +1,6 @@
 /*Estoy haciendo uso de la tecnica mobile first*/
 /*Celular promedio*/
-ul li{
+ul li, .redes img{
     cursor: pointer;
 }
 .header{
